@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer Sensor "
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        />
+
+
+    <TextView
+        android:id="@+id/value_of_x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X: "
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/value_of_y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y: "
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/value_of_z"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Z: "
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
